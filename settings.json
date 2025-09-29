@@ -1,0 +1,212 @@
+{
+  // --- EDITOR SETTINGS ---
+  "editor.fontFamily": "'FiraCode Nerd Font', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 20,
+  "editor.lineHeight": 1.3,
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.indentSize": "tabSize",
+  "editor.minimap.enabled": false,
+  "editor.wordBasedSuggestions": "allDocuments",
+  "editor.tabCompletion": "on",
+  "editor.suggest.insertMode": "replace",
+  "editor.linkedEditing": true,
+  "editor.lineNumbers": "relative",
+  "editor.renderLineHighlight": "all",
+
+  // Global code actions on save
+  "editor.codeActionsOnSave": {},
+
+  // --- PYTHON SETTINGS ---
+  "python.createEnvironment.trigger": "off",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "indentation-error": "none"
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.wordBasedSuggestions": "allDocuments"
+  },
+
+  // --- C / C++ SETTINGS ---
+  "C_Cpp.default.compilerPath": "C:\\mingw\\bin\\gcc.exe",
+
+  // --- TERMINAL SETTINGS ---
+  "terminal.explorerKind": "external",
+  "terminal.external.windowsExec": "wt",
+  "terminal.integrated.fontSize": 20,
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font'",
+  "debug.console.fontSize": 20,
+  "debug.console.fontFamily": "'FiraCode Nerd Font'",
+
+  // --- UI / WORKBENCH ---
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Prime Contrast (rainglow)",
+  "workbench.settings.applyToAllProfiles": ["editor.fontSize"],
+  "workbench.editor.showTabs": "multiple",
+  "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "right",
+  "window.customTitleBarVisibility": "windowed",
+  "workbench.activityBar.location": "top",
+  "workbench.editor.centeredLayoutFixedWidth": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.menuBarVisibility": "classic",
+  "window.title": " ",
+  "window.commandCenter": false,
+  "workbench.statusBar.visible": false,
+  "window.zoomLevel": 0.5,
+  "workbench.iconTheme": "material-icon-theme",
+  "breadcrumbs.enabled": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "zenMode.hideLineNumbers": false,
+  "update.showReleaseNotes": false,
+
+  // --- INDENT RAINBOW ---
+  "indentRainbow.colors": [
+    "rgba(247, 37, 133,0.15)",
+    "rgba(181, 23, 158,0.15)",
+    "rgba(114, 9, 183,0.15)",
+    "rgba(86, 11, 173,0.15)",
+    "rgba(72, 12, 168,0.15)",
+    "rgba(58, 12, 163,0.15)",
+    "rgba(63, 55, 201,0.15)",
+    "rgba(63, 55, 201,0.1)",
+    "rgba(63, 55, 201,0.05)",
+    "rgba(63, 55, 201,0.025)"
+  ],
+  "indentRainbow.errorColor": "rgba(247, 37, 133,0.3)",
+
+  // --- EXTENSIONS SETTINGS ---
+  "redhat.telemetry.enabled": false,
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+  "docker.extension.enableComposeLanguageServer": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  // --- GIT / COPILOT ---
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "python": true,
+    "yaml": true,
+    "json": true
+  },
+
+  // --- MARKDOWN ---
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "files.associations": { "*.md": "markdown" },
+  "markdown-pdf.displayHeaderFooter": true,
+  "markdown-pdf.headerTemplate": "<div style=\"font-size:9px; margin-left:1cm;\"></div>",
+  "markdown-pdf.footerTemplate": "<div style=\"display:flex; width:100%; justify-content:center; font-size:9px;\"><span class='pageNumber'></span>/<span class='totalPages'></span></div>",
+
+  // --- HTML / JSON ---
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  // --- KUBERNETES / DOCKER ---
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path-windows": "C:\\Users\\Anurag\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+    "vscode-kubernetes.helm-path-windows": "C:\\Users\\Anurag\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe"
+  },
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+
+  // --- FILES / EXPLORER ---
+  "files.exclude": { "**/.git": true },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.renderWhitespace": "all",
+
+  // --- PRINT SETTINGS ---
+  "print.folder.fileNames": true,
+  "print.folder.include": [],
+  "print.folder.exclude": [
+    "{bin,obj,out}",
+    "node_modules",
+    "data",
+    "**/*.{bin,exe,dll,hex,pdb,pdf,pfx,png,jpg,gif,bmp,suo,design}"
+  ],
+  "print.folder.maxLines": 1200,
+  "print.folder.maxFiles": 30,
+  "print.folder.includeFileList": false,
+
+  // --- CHAT / AI ---
+  "chat.tools.edits.autoApprove": {
+    "**/*": true,
+    "**/.vscode/*.json": false,
+    "**/.git/**": false,
+    "**/{package.json,package-lock.json,server.xml,build.rs,web.config,.gitattributes,.env}": false,
+    "**/*.{csproj,fsproj,vbproj}": false
+  },
+  "chat.editing.confirmEditRequestRemoval": false,
+  "chat.editing.confirmEditRequestRetry": false,
+  "chat.commandCenter.enabled": false,
+
+  // --- LAZYVIM STYLED DASHBOARD ---
+  "nvimDashboard.fontSize": 20,
+  "nvimDashboard.bottomText": [
+    "> waiting for input...",
+    ":(){ :|:& };:",
+    "git commit -m \"focus\"",
+    "sudo make it work",
+    "z ~/flow",
+    "$whoami",
+    "if (bored) { code(); }",
+    "uv add chaos",
+    "docker run --rm universe",
+    "kubectl apply -f focus.yaml"
+  ],
+  "nvimDashboard.keybinds": [
+    {
+      "letter": "n",
+      "name": "new",
+      "command": "workbench.action.files.newUntitledFile"
+    },
+    { "letter": "f", "name": "files", "command": "workbench.action.quickOpen" },
+    {
+      "letter": "o",
+      "name": "folders",
+      "command": "workbench.action.files.openFolder"
+    },
+    {
+      "letter": "s",
+      "name": "settings",
+      "command": "workbench.action.openSettings"
+    },
+    { "letter": "q", "name": "exit", "command": "nvim-dashboard.close" }
+  ],
+  "nvimDashboard.logoText": "██████╗  █████╗ ██╗   ██╗███████╗███╗   ██╗\n██╔══██╗██╔══██╗██║   ██║██╔════╝████╗  ██║\n██████╔╝███████║██║   ██║█████╗  ██╔██╗ ██║\n██╔══██╗██╔══██║╚██╗ ██╔╝██╔══╝  ██║╚██╗██║\n██║  ██║██║  ██║ ╚████╔╝ ███████╗██║ ╚████║\n╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═══╝",
+  "nvimDashboard.maxRecentFiles": 3,
+  "nvimDashboard.maxRecentProjects": 3,
+  "nvimDashboard.openOnNoTabs": true,
+  "nvimDashboard.showDateTime": false
+}

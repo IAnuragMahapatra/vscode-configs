@@ -1,0 +1,73 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "alt+v",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "alt+s",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "alt+h",
+    "command": "workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.focusBelowGroup"
+  },
+  {
+    "key": "alt+k",
+    "command": "workbench.action.focusAboveGroup"
+  },
+  {
+    "key": "alt+l",
+    "command": "workbench.action.focusRightGroup"
+  },
+  {
+    "key": "alt+t",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "alt+d",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+n",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "alt+p",
+    "command": "workbench.action.terminal.focusPrevious"
+  },
+  {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "ctrl+e"
+  },
+  {
+    "key": "n",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "shift+n",
+    "command": "workbench.action.newWindow",
+    "when": "!explorerViewletFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "d",
+    "when": "filesExplorerFocus && !inputFocus"
+  }
+]
